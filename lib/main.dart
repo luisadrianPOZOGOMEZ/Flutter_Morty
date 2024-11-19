@@ -353,6 +353,9 @@ const Profile({Key? key}) : super(key: key);
             ),
             Text("211218"),
             Text("Luis Adrián Pozo Gómez"),
+            Text("Ingeniería en Software"),
+            Text("Programación para Móviles 2"),
+            Text("9B"),
             SizedBox(height: 20),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -389,7 +392,7 @@ const Profile({Key? key}) : super(key: key);
                   icon: Icon(Icons.web, color: const Color.fromARGB(255, 186, 35, 35)),
                   iconSize: 30,
                   onPressed: () async {
-                    final web = Uri.parse('https://github.com/Hum-berto/PracticaMoviles_Llamadas ');
+                    final web = Uri.parse('https://github.com/luisadrianPOZOGOMEZ/Flutter_Morty.git');
                     if (await canLaunchUrl(web)) {
                       await launchUrl(web, mode: LaunchMode.externalApplication);
                     } else {
